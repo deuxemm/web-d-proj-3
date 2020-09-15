@@ -1,3 +1,43 @@
-h1 {
-    color: limegreen;
+
+/* Global View aka Desktop View*/
+
+/* Or use the css-reset.css BEFORE the style.css in index */
+body {
+    margin: 0;
+}
+
+.container {
+    background-color: rgb(43, 226, 147);
+    min-height: 500px;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col {
+    background-color: rgb(223, 15, 123);
+    min-height: 200px;
+    width: 30%;
+    margin-bottom: 40px;
+}
+
+/* Tablet View */
+@media (max-width: 768px) {
+
+.col {
+    width: 45%;
+}
+
+}
+
+
+/* Mobile View */
+@media (max-width: 500px) {
+ 
+    .col {
+        width: 100%;
+    }
+
 }
