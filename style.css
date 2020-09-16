@@ -16,6 +16,10 @@ body {
     justify-content: space-between;
 }
 
+.hide-deskt {
+    display: none;
+}
+
 .col {
     background-color: rgb(223, 15, 123);
     min-height: 200px;
@@ -30,6 +34,10 @@ body {
     width: 45%;
 }
 
+.hide-deskt {
+    display: block;
+}
+
 }
 
 
@@ -38,6 +46,10 @@ body {
  
     .col {
         width: 100%;
+    }
+
+    .hide-mobile {
+        display: none;
     }
 
 }
