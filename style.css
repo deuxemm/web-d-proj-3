@@ -35,8 +35,8 @@ a {
 }
 
 header {
-    max-width: 1024px;
     /* background-color: blueviolet; */
+    max-width: 1024px;
     min-height: 100px;
     margin: 0 auto;
     display: flex;
@@ -68,9 +68,11 @@ header {
     height: auto;
 }
 
+
 .col p::first-line {
     font-weight: 700;
 }
+
 
 .mybutton {
     padding: 10px 25px;
@@ -80,9 +82,12 @@ header {
     margin-left: 20px;
 }
 
+
 .highlight {
     font-weight: 700;
 }
+
+
 
 /* Tablet View */
 @media (max-width: 768px) {
@@ -94,6 +99,32 @@ header {
     .hide-deskt {
         display: block;
     }
+
+    header {
+        display: block;
+        text-align: center;
+    }
+
+    .header-container {
+        position: relative
+    }
+
+    .container {
+        padding-top: 40px;
+    }
+
+    nav a {
+        display: block;
+    }
+
+    .logo {
+        padding: 40px 0;
+    }
+
+    .mybutton {
+        margin-left: 0px;
+    }
+
 }
 
 
@@ -108,7 +139,5 @@ header {
     .hide-mobile {
         display: none;
     }
-
-
-
+    
 }
